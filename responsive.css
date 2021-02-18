@@ -1,0 +1,84 @@
+@media (max-width: 575.98px) { 
+    .container{
+      height: 550px;
+      background-size: cover;
+      }
+      #header-description{
+         padding-left: 2%;
+      }
+      #about-heading{
+        color: white;
+        padding-top: 10px;
+            }
+       .abt-content2{
+        padding-left: 90px;
+        margin-right: 90px;
+         }
+    .abt-content3{
+      
+     width: 40%;
+     height: 23%;
+  
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    
+    }
+    .img-carousel{
+  
+        min-width:100%;
+        max-width: 80%;
+        min-height: 520px;
+        max-height: 520px;
+        filter: grayscale(30%);
+        filter: opacity(80%);
+    }
+    #form{
+        width: 100%;
+        padding-left: 10%;
+        padding-top: 80px;
+        margin-left: 60px;
+    }
+    .imgcontact{
+        height: 90%;
+        width: 60%;
+        padding-top:110px ;
+        padding-left: 5px;
+        margin-left: 60px;
+        }
+     .counter-section{
+    background-image: linear-gradient(to right , rgba(0, 0,2, 0.256),rgba(0, 0, 0, 0.834)) , url(https://s1.1zoom.me/b5050/632/Pepper_Vegetables_506723_3840x2400.jpg);
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+   }
+
+
+   @media (min-width:575.98px) and (max-width: 767.98px){
+    .abt-content2{
+      padding-left: 90px;
+      margin-right: 90px;
+      }
+        .abt-content3{
+      width: 50%;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+    }
+  #about-heading{
+    color: white;
+    padding-top: 10px;
+    }
+    #header-description{
+      padding-left: 2%;
+   }
+
+ 
+    }
